@@ -1,2 +1,0 @@
-# ActivityTest
-Personal practice use
