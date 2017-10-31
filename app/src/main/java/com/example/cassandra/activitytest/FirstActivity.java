@@ -17,6 +17,8 @@ public class FirstActivity extends BaseActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main,menu);
+        menu.setGroupVisible(R.id.edit,true);
+        menu.setGroupVisible(R.id.normal_menu,false);
         //Log.d(TAG, "onCreateOptionsMenu: execute");
         return true;
     }
